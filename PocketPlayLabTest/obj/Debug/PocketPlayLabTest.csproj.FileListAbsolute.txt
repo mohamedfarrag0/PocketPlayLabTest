@@ -7,3 +7,9 @@ c:\users\mohamed farrag\documents\visual studio 2013\Projects\PocketPlayLabTest\
 D:\Work\code test\PocketPlayLabTest\PocketPlayLabTest\bin\Debug\PocketPlayLabTest.exe.config
 D:\Work\code test\PocketPlayLabTest\PocketPlayLabTest\obj\Debug\PocketPlayLabTest.exe
 D:\Work\code test\PocketPlayLabTest\PocketPlayLabTest\obj\Debug\PocketPlayLabTest.pdb
+D:\Work\code test\PocketPlayLabTestOnGit\PocketPlayLabTest\PocketPlayLabTest\bin\Debug\PocketPlayLabTest.exe.config
+D:\Work\code test\PocketPlayLabTestOnGit\PocketPlayLabTest\PocketPlayLabTest\obj\Debug\PocketPlayLabTest.exe
+D:\Work\code test\PocketPlayLabTestOnGit\PocketPlayLabTest\PocketPlayLabTest\obj\Debug\PocketPlayLabTest.pdb
+D:\Work\code test\PocketPlayLabTestOnGit\PocketPlayLabTest\PocketPlayLabTest\bin\Debug\PocketPlayLabTest.exe
+D:\Work\code test\PocketPlayLabTestOnGit\PocketPlayLabTest\PocketPlayLabTest\bin\Debug\PocketPlayLabTest.pdb
+D:\Work\code test\PocketPlayLabTestOnGit\PocketPlayLabTest\PocketPlayLabTest\obj\Debug\PocketPlayLabTest.csprojResolveAssemblyReference.cache

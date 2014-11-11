@@ -79,8 +79,6 @@ namespace PocketPlayLabTest
                         string[] parsedLine = readLine.Split(' ');
 
                         CheckLinks(parsedLine);
-
-                        // CheckDyno(parsedLine);
                     }
                 }
             }
@@ -105,33 +103,21 @@ namespace PocketPlayLabTest
             #region match link with regex
 
             if (RxCountPendingMessages.IsMatch(path))
-            {
                 key = "GET /api/users/{user_id}/count_pending_messages";
-            }
             else if (RxGetMessages.IsMatch(path))
-            {
                 key = "GET /api/users/{user_id}/get_messages";
-            }
             else if (RxGetFriendsProgress.IsMatch(path))
-            {
                 key = "GET /api/users/{user_id}/get_friends_progresss";
-            }
             else if (RxGetFriendsScore.IsMatch(path))
-            {
                 key = "GET /api/users/{user_id}/get_friends_score";
-            }
             else if (RxUser.IsMatch(path))
             {
                 // this case it may be GET or POST.. check the method
                 string method = SplitOnEqualSign(parsedLine[3]); // method index is 3
                 if (method == "POST")
-                {
                     key = "POST /api/users/{user_id}";
-                }
                 else
-                {
                     key = "GET /api/users/{user_id}";
-                }
             }
 
             #endregion
